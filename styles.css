@@ -1,0 +1,154 @@
+body {
+  background-color: #0f0f0f;
+  color: #e0f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  font-size: 2.8em;
+  font-weight: 900;
+  text-align: center;
+  background: linear-gradient(to right, #00ffff, #00c8ff, #0088ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: pulseTitle 3s ease-in-out infinite, glow 4s ease-in-out infinite;
+}
+
+
+@keyframes pulseTitle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.06);
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 8px #00ffff80, 0 0 16px #00ffff40;
+  }
+  50% {
+    text-shadow: 0 0 18px #00ffffaa, 0 0 28px #00c8ffaa;
+  }
+}
+
+
+.divider {
+  margin: 20px auto;
+  width: 85%;
+  border: 1px solid #00ffff33;
+}
+
+.sidebar {
+  background-color: #1a1a1a;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+}
+
+.content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.section-container {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section-container:hover {
+  box-shadow: 0 0 25px #00ffffcc;
+}
+
+.titlelin {
+  font-size: 1.5em;
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.titlelin3 {
+  font-size: 1em;
+}
+
+.unavailable {
+  color: gray;
+}
+
+button {
+  background-color: #00ffff;
+  color: #001f2f;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00cccc;
+}
+
+.footer {
+  text-align: center;
+  color: #00ffff;
+  font-size: 0.4em;
+  margin-top: 30px;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00ffff;
+  color: #001f2f;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5em;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.toggle-button:hover {
+  background-color: #00cccc;
+}
+
+.contact-options p {
+  margin: 8px 0;
+  font-size: 13px;
+}
+
