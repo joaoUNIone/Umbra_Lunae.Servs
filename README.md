@@ -1,4 +1,4 @@
-1Copyright © 2025 João Henrique Pereira Silva Caetano. Todos os direitos reservados.
+Copyright © 2025 João Henrique Pereira Silva Caetano. Todos os direitos reservados.
 
 Este projeto, incluindo todos os seus arquivos, códigos, design, conteúdo e qualquer elemento relacionado, é de propriedade exclusiva de João Henrique Pereira Silva Caetano.
 
